@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="wishBean" class="com.mgBusiness.beans.WishBean">
+		<property name="name" value="MAHENDRA" />
+		<property name="message" value="Good DAY!!!" />
+	</bean>
+	<bean id="ChildWishBean1"
+		class="com.mgBusiness.beans.ChildWishBean1" parent="wishBean">
+		 <property name="message" value="Good Morning!!!"/> 
+	</bean>
+	<bean id="ChildWishBean2"
+		class="com.mgBusiness.beans.ChildWishBean2" parent="wishBean">
+		 <property name="message" value="Good Afternoon!!!"/> 
+	</bean>
+	<bean id="ChildWishBean3"
+		class="com.mgBusiness.beans.ChildWishBean3" parent="wishBean">
+		<property name="message" value="Good evening!!!"/> 
+	</bean>
+</beans>

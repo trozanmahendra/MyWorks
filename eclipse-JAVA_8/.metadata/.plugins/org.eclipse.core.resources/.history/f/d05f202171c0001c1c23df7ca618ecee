@@ -1,0 +1,27 @@
+package functionInterface01;
+
+import java.util.function.Function;
+
+public class Demo {
+	
+	static void powOfNum(Integer i1,Integer power){
+	
+		Function<Integer, Integer> f = i -> {
+			int pow = power;
+			int num = 1;
+			for (int j = 0; j < pow; j++) {num *= i;}return num;};
+		System.out.println(f.apply(i1));
+	}
+
+	public static void main(String[] args) {
+//		Function<Integer, Integer> f = (i) -> {
+//			int pow = 3;
+//			int num = 1;
+//			for (int j = 0; j < pow; j++) {num *= i;}return num;};
+//		System.out.println(f.apply(3));
+
+		Demo d = new Demo();
+		d.powOfNum(1, 2);
+	}
+
+}

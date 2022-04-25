@@ -1,0 +1,20 @@
+package collections_hashset;
+
+
+
+public class HsahSet {
+
+	public static void main(String[] args) {
+		Integer i=10;
+		Integer j=10;
+		System.out.println(i==j);
+		System.out.println(i.equals(j));
+		
+		String s1= new String("mg");
+		String s2=new String("mg");
+		System.out.println(((String)(s1)).equals((String)(s2)));
+		System.out.println(s1==s2);
+		
+	}}
+
+

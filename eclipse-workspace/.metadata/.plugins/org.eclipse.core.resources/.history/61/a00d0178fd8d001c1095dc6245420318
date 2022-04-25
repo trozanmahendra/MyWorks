@@ -1,0 +1,22 @@
+package com.mgBusiness;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Demo {
+	static int count;
+
+	public static void main(String[] args) {
+
+		Pattern p = Patterncompile("[&*()%$#@!<>%\\$]@gmail.com");
+		Matcher m = p.matcher("m&g@gmail.com");
+		
+		if(m.find()) {
+			System.out.println("Invalid mail");
+		}else {
+			System.out.println("valid mail");
+		}
+				
+	}
+
+}

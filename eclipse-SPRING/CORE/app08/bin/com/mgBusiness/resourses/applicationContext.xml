@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="studBean" class="com.mgBusiness.beans.StudentBean">
+<constructor-arg value="MAHENDRA"/>
+<constructor-arg value="M-111"/>
+<constructor-arg value="JAVA"/>
+<constructor-arg value="8897486544"/>
+<constructor-arg value="MG@mail.com"/>
+</bean>
+</beans>

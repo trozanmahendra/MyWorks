@@ -1,0 +1,14 @@
+package com.mgBusiness.testing;
+
+import com.mgBusiness.Demo;
+import org.junit.*;
+
+public class TestCase {
+
+	@Test
+	public void testing() {
+		Demo t = new Demo();
+
+	}
+
+}

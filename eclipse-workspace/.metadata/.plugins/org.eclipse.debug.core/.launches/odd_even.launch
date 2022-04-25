@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/CHECK_ODD_OR_EVEN/src/odd_even/odd_even.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="odd_even.odd_even"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="CHECK_ODD_OR_EVEN"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CHECK_ODD_OR_EVEN"/>
+</launchConfiguration>

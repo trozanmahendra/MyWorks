@@ -1,0 +1,29 @@
+package palindrome;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("Enter any number : ");
+		Scanner sc = new Scanner(System.in);
+		String s1 = sc.next();
+		StringBuffer sb1 = new StringBuffer(s1);
+		StringBuffer sb2 = new StringBuffer(s1);
+		StringBuffer sbr = sb1.reverse();
+
+		boolean flag;
+		for (int i = 1; i < sbr.capacity(); i++) {
+			if (sbr.charAt(i) == sb2.charAt((sbr.capacity()) - i + 1)) {
+				flag = true;
+				System.out.println(flag);
+			} else {
+				flag = false;
+				System.out.println(flag);
+			}
+
+		}
+
+	}
+
+}

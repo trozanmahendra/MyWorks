@@ -1,0 +1,16 @@
+package testdemo;
+
+import java.util.StringTokenizer;
+
+public class demo {
+public static void main(String[] args)throws Exception{
+	
+      StringTokenizer st= new StringTokenizer("HONESTY-IS-THE-BEST-POLICY...","-");
+      int count= st.countTokens();
+      System.out.println("no of tokens is "+count);
+      while (st.hasMoreTokens()) {
+    	  System.out.println(st.nextToken());
+      }
+      
+	    }
+	}

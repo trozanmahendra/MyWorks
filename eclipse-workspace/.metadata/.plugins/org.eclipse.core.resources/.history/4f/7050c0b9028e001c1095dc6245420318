@@ -1,0 +1,15 @@
+package com.mgBusiness.testing;
+
+import org.junit.Test;
+
+import com.mgBusiness.Calculation;
+
+public class TestCase {
+
+	@Test
+	public void testing() {
+		Calculation t = new Calculation();
+
+	}
+
+}

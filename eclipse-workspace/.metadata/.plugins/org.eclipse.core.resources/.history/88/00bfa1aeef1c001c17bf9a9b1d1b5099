@@ -1,0 +1,11 @@
+package testdemo;
+
+
+public class demo {
+public static void main(String[] args) {
+	
+	String str = new String("mg");
+	String str1 = new String("mg");
+	System.out.println(str==str1);
+	    }
+	}

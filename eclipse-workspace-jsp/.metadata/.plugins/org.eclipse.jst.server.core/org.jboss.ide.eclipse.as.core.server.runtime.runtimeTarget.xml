@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="/home/mg/wildfly-preview-24.0.1.Final/modules/system/layers/base/jakarta/servlet/jsp/api/main/jakarta.servlet.jsp-api-3.0.0.jar" runtime-id="WildFly 24.0 Runtime" source-attachment-path="/home/mg/wildfly-preview-24.0.1.Final/modules/system/layers/base/jakarta/servlet/jsp/api"/>
+</classpath>

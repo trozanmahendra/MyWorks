@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>LayOut</title>
+</head>
+<body>
+<frameset rows="20%,70%,10%">
+<frame src="header.html"/>
+<frameset cols="15%,55%">
+<frame src="menu.html"/>
+<frame src="welcome.html" name="body"/>
+</frameset>
+<frame src="footer.html"/>
+</frameset>
+</body>
+</html>

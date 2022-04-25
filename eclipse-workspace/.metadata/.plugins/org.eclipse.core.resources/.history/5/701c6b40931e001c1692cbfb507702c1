@@ -1,0 +1,17 @@
+package testdemo;
+class A{
+	static void m1() {
+		System.out.println("class A loading...............");
+	}
+}
+
+	
+
+public class demo {
+public static void main(String[] args){
+	System.out.println();
+	Class.forName("testdemo.A.m1()");
+	}
+      
+	    }
+	

@@ -1,0 +1,21 @@
+package testdemo;
+class A{
+	static void m1() {
+		System.out.println("m1-A");
+	}
+}
+class B extends A{
+	void m2(){
+		System.out.println("m2-B");
+	}
+}
+	
+
+public class demo {
+public static void main(String[] args){
+	System.out.println();
+	class.forName(testdemo.A);
+	}
+      
+	    }
+	

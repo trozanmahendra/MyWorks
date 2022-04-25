@@ -1,0 +1,16 @@
+package com.mgBusiness.I18N;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Locale l = new Locale("it","IT");
+		NumberFormat nf = NumberFormat.getInstance(l);
+		
+		System.out.println(nf.format(1234564562.23653));
+
+	}
+
+}

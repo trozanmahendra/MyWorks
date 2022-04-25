@@ -1,0 +1,26 @@
+package lmbd_user_defined_object_genric03;
+class Employee{
+	
+	public int eno;
+	public String ename;
+	public Employee( int eno, String ename) {
+		this.eno = eno;
+		this.ename = ename;
+	}
+	@Override
+	public String toString() {
+		
+		return eno+ " : "+ename ;
+	}
+	
+}
+
+public class Test3 {
+	
+	
+	public static void main(String[] args) {
+		System.out.println(new Employee(100, "Lakshmanna"));
+
+	}
+
+}

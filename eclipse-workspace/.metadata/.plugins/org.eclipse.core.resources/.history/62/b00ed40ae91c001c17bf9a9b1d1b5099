@@ -1,0 +1,10 @@
+package testdemo;
+
+
+public class demo {
+public static void main(String[] args) {
+	
+	String str = new String("mahendra");
+	System.out.println(str);
+	    }
+	}

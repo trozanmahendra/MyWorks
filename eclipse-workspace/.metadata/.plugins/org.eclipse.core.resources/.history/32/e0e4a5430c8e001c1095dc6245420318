@@ -1,0 +1,25 @@
+package com.mg.test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+
+import org.junit.jupiter.api.Test;
+
+import com.mg.PowerOfANumber;
+
+public class PowerTest {
+@SuppressWarnings("deprecation")
+@Test
+	public void tester1() {
+		assertEquals(36.23, PowerOfANumber.power(6, 2),0.5);
+		assertNotEquals(3.23, PowerOfANumber.power(6, 2),0.5);
+
+	}
+@Test
+public void tester2() {
+	assertEquals(36.23, PowerOfANumber.power(6, 2),0.5);
+	assertNotEquals(3.23, PowerOfANumber.power(6, 2),0.5);
+
+}
+
+}

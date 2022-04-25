@@ -1,0 +1,15 @@
+package flow_control;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("\tgrading"+"\n---------------------");
+		int i=67;
+		switch (4) {
+		case 1:{
+			System.out.println("e");
+		}
+		}
+	}
+
+}

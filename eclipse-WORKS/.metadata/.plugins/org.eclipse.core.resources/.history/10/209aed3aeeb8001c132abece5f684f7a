@@ -1,0 +1,44 @@
+package com.mgBusiness.dao;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+import com.mgBusiness.dto.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+	
+	private JdbcTemplate JdbcTemplate;
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		JdbcTemplate = jdbcTemplate;
+	}
+
+	@Override
+	public String add(Employee emp) {
+		String status ="";
+		try {
+			Employee emp = JdbcTemplate.queryForObject("select * from Empp where eid="+emp.getEid(), new Emplo);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	@Override
+	public Employee search(int eno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String update(Employee emp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String delete(int eno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

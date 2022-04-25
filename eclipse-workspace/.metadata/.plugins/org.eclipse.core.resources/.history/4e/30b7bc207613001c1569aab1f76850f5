@@ -1,0 +1,16 @@
+package iterative_Statements;
+
+public class WhileLoop1 {
+
+	public static void main(String[] args) {
+		System.out.println("\tWHILE LOOP OPERATION\n"+"--------------------------------------------");
+		char i='A';
+		char Z='z';
+		while (i<Z) {
+			i++;
+			System.out.print(i+" ");
+		}
+
+	}
+
+}

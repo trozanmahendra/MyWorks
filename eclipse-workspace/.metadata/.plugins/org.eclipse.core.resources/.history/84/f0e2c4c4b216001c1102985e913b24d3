@@ -1,0 +1,37 @@
+package testdemo;
+class Employee{
+	private String Ename;
+	private int Esal;
+	private String Eaddr;
+	public String getEname() {
+		return Ename;
+	}
+	public void setEname(String Ename) {
+		this.Ename = Ename;
+	}
+	public int getEsal() {
+		return Esal;
+	}
+	public void setEsal(int Esal) {
+		this.Esal = Esal;
+	}
+	public String getEaddr() {
+		return Eaddr;
+	}
+	public void setEaddr(String Eaddr) {
+		this.Eaddr = Eaddr;
+	}	
+}
+
+public class demo {
+public static void main(String[] args) {
+	 Employee e = new Employee();
+	 e.setEname("Mahendra");
+	 e.setEsal(50000);
+	 e.setEaddr("hno123");
+	 
+	 System.out.println(e.getEname());
+
+	    
+	    }
+	}

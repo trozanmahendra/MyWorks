@@ -1,0 +1,2 @@
+module hAS_ARELATIONSHIP {
+}

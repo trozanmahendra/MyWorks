@@ -1,0 +1,21 @@
+package testdemo;
+class A{
+	static{
+		System.out.println("class AB loading...............");
+	}
+	static void m1() {
+		System.out.println("class A-m1 loading...............");
+	}
+}
+
+	
+
+public class demo {
+public static void main(String[] args)throws Exception{
+	A.m1();
+	Class.forName("testdemo.Ax");
+	
+	}
+      
+	    }
+	

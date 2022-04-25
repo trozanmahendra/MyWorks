@@ -1,0 +1,13 @@
+package com.mgBusiness.Listeners;
+
+import org.springframework.context.ApplicationListener;
+
+public class ContextStartedListenerImpl implements ApplicationListener<ContextStartedListener> {
+
+	@Override
+	public void onApplicationEvent(ContextStartedListenerImpl arg0) {
+		
+		
+	}
+
+}

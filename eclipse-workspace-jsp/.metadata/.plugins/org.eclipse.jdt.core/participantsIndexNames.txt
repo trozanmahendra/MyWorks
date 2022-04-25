@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/270049822.index
+/jsp-2/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1132657050.index
+/jsp-1/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/814407253.index
+/jsp-5/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1662027217.index
+/jsp-6/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4207322460.index
+/jsp-5/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2545838429.index
+/jsp-3/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3275963328.index
+/jsp-dp/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3837152914.index
+/jsp-7/src/main/java
+/home/mg/eclipse-workspace-jsp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3073119510.index
+/jsp-4/src/main/java

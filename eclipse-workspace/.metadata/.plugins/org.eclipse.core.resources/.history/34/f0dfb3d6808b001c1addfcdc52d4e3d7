@@ -1,0 +1,18 @@
+package com.mgBusiness;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Pattern p = Pattern.compile(".ga");
+		Matcher m = p.matcher(
+				"Durga SoftWare Solutions Durga SoftWare Solutions Durga SoftWare Solutions Durga SoftWare Solutions Durga SoftWare Solutions");
+		while (m.find()) {
+			System.out.println(m.end() + "  " + m.start() + "  " + m.group() + "  ");
+		}
+	}
+
+}

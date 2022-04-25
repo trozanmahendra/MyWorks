@@ -1,0 +1,13 @@
+package testdemo;
+
+//import java.nio.charset.Charset;
+
+public class demo {
+public static void main(String[] args)throws Exception {
+	byte[] b= {65,66,67,68,69,70};
+	System.out.println(b.length);
+	String s = new String(b, "US-ASCII");
+	System.out.println(s);
+	System.out.println(s.length());
+	    }
+	}

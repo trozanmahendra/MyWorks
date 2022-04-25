@@ -1,0 +1,10 @@
+package testdemo;
+
+
+public class demo {
+public static void main(String[] args) {
+	char[] b= {'A','B','C','D',};
+	String str = new String(b,2,2);
+	System.out.println(str);
+	    }
+	}

@@ -1,0 +1,20 @@
+
+Dec 28, 2021 23:54:34.509 NEW SESSION
+Dec 28, 2021 23:54:34.510 [47270:47270:1228/235434.505392:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+
+Jan 06, 2022 22:16:59.675 NEW SESSION
+Jan 06, 2022 22:16:59.675 [78626:78626:0106/221659.671999:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+
+Jan 07, 2022 17:25:04.84 NEW SESSION
+Jan 07, 2022 17:25:04.84 touch: cannot touch '/root/.mozilla/95.0.1+linuxmint1.1+una.dpkg_version': No such file or directory
+Jan 07, 2022 17:25:04.106 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Jan 07, 2022 17:25:04.165 touch: cannot touch '/root/.mozilla/95.0.1+linuxmint1.1+una.dpkg_version': No such file or directory
+Jan 07, 2022 17:25:04.185 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Jan 07, 2022 19:36:34.849 touch: cannot touch '/root/.mozilla/95.0.1+linuxmint1.1+una.dpkg_version': No such file or directory
+Jan 07, 2022 19:36:34.879 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Jan 07, 2022 19:36:34.944 touch: cannot touch '/root/.mozilla/95.0.1+linuxmint1.1+una.dpkg_version': No such file or directory
+Jan 07, 2022 19:36:34.968 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Jan 07, 2022 19:39:51.707 touch: cannot touch '/root/.mozilla/95.0.1+linuxmint1.1+una.dpkg_version': No such file or directory
+Jan 07, 2022 19:39:51.739 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Jan 07, 2022 19:39:51.806 touch: cannot touch '/root/.mozilla/95.0.1+linuxmint1.1+una.dpkg_version': No such file or directory
+Jan 07, 2022 19:39:51.842 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)

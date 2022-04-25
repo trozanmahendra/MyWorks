@@ -1,0 +1,21 @@
+package collections_hashset;
+
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class HsahSet {
+
+	public static void main(String[] args) {
+		SortedMap<String, String> sm=new TreeMap<String,String>();
+		sm.put("m", "mg");
+		sm.put("b", "bg");
+		sm.put("j", "jayamma");
+		sm.put("l", "lakshmanna");
+		System.out.println(sm);
+		
+		System.out.println(sm.headMap("j"));
+		System.out.println(sm.tailMap("m"));
+		
+	}}
+
+

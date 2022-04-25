@@ -1,0 +1,9 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>3.0</jsp-version>
+	<tag>
+		<name>execute</name>
+		<tag-class>com.mgBusiness.handler.ExecuteEditor</tag-class>
+		<body-content>jsp</body-content>
+	</tag>
+</taglib>

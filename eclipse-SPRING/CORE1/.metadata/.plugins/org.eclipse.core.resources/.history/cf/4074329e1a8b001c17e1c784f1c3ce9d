@@ -1,0 +1,26 @@
+package test;
+
+public class Test{  
+    static int factoriale(int n){    
+     if (n == 0)    
+       return 1;    
+     else    
+       return(n * factoriale(n-1));    
+    }    
+    public static int main(String args[]){  
+    	
+    	
+    	int factoriale(int n){    
+    	     if (n == 0)    
+    	       return 1;    
+    	     else    
+    	       return(n * factoriale(n-1));    
+    	    } 
+    	
+     int i,fact=1;  
+     int number=6;//It is the number to calculate factorial    
+     fact = factoriale(number);   
+     System.out.println("Factorial of "+number+" is: "+fact);    
+    }  
+   }  
+

@@ -1,0 +1,27 @@
+package testdemo;
+
+import java.util.Scanner;
+
+public class demo {
+public static void main(String[] args)throws Exception {
+	
+	int i,j,k,l,m;
+	j=7;
+	for(i=1;i<=j;i++) {
+		for (k=1;k<=j;k++) {
+			l=i%k;
+			if(l==0) {  
+				}else {
+					System.out.println(k+"-- "+l);
+				}
+			
+			
+		}
+		
+		
+		
+		
+		
+	}
+	    }
+	}

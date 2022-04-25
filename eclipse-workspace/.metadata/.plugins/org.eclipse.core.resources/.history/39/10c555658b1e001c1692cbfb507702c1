@@ -1,0 +1,12 @@
+package testdemo;
+
+import java.util.Date;
+
+public class demo {
+public static void main(String[] args)throws Exception{
+	
+      Date d = null;
+      System.out.println(d.toString());
+      
+	    }
+	}

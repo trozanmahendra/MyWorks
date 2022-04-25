@@ -1,0 +1,14 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	
+	static int[] num;
+	public static void main(String args[])
+	{
+		 int[] arr=new int[0];
+	        System.out.println(arr.length);
+	}
+}

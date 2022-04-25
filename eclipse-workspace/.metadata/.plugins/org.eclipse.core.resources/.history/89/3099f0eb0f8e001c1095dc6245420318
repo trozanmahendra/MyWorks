@@ -1,0 +1,56 @@
+package com.mg.test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import com.mg.PowerOfANumber;
+
+public class PowerTest {
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("Before class method");
+	}
+	@AfterClass
+	public void afterClass() {
+		System.out.println("After class method");
+	}
+	@Before
+	public void before() {
+		System.out.println("before");
+	}
+	@After
+	public void after() {
+		System.out.println("After");
+	}
+	@BeforeAll
+	public static void beforeAll() {
+		System.out.println("Before all method");
+	}
+	@AfterAll
+	public static void afterAll() {
+		System.out.println("After all method");
+	}
+
+	@Test
+	public void tester1() {
+		assertEquals(36.23, PowerOfANumber.power(6, 2), 0.5);
+		assertNotEquals(3.23, PowerOfANumber.power(6, 2), 0.5);
+
+	}
+
+	@Test
+	public void tester2() {
+		assertEquals(36.23, PowerOfANumber.power(6, 2), 0.5);
+		assertNotEquals(3.23, PowerOfANumber.power(6, 2), 0.5);
+
+	}
+
+}

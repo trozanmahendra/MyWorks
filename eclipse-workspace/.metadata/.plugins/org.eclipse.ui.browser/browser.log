@@ -1,0 +1,26 @@
+
+Dec 15, 2021 14:52:13.608 NEW SESSION
+Dec 15, 2021 14:52:13.609 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 15, 2021 14:52:13.684 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Dec 15, 2021 14:52:13.767 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 15, 2021 14:52:13.796 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Dec 15, 2021 14:52:28.789 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 15, 2021 14:52:28.830 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Dec 15, 2021 14:52:28.909 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 15, 2021 14:52:28.950 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Dec 15, 2021 14:52:47.307 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 15, 2021 14:52:47.345 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Dec 15, 2021 14:52:47.448 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 15, 2021 14:52:47.495 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+
+Dec 16, 2021 11:08:55.230 NEW SESSION
+Dec 16, 2021 11:08:55.230 [3466:3466:1216/110855.225045:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Dec 16, 2021 11:11:02.176 [4410:4410:1216/111102.176205:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+
+Dec 17, 2021 24:10:54.17 NEW SESSION
+Dec 17, 2021 24:10:54.18 [131670:131670:1217/001054.008094:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Dec 17, 2021 24:11:46.621 [132439:132439:1217/001146.617648:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Dec 17, 2021 24:13:24.383 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 17, 2021 24:13:24.522 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Dec 17, 2021 24:13:24.623 touch: cannot touch '/root/.mozilla/95.0+linuxmint1+uma.dpkg_version': No such file or directory
+Dec 17, 2021 24:13:24.663 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)

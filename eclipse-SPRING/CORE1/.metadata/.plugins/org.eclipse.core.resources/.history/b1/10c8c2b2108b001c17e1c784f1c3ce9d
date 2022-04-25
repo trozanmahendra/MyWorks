@@ -1,0 +1,17 @@
+package test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int n = 5;
+		int count = 0;
+		int fact = 1;
+		for(int i=4;i>0;i--) {
+			count++;
+			fact = n*(n-count);
+		}
+		System.out.println(fact);
+
+	}
+
+}

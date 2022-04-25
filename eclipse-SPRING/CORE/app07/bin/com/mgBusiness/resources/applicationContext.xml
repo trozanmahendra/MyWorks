@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="customer" class="com.mgBusiness.beans.Customer">
+		<property name="name" value="" />
+		<property name="mobile" value="8897486544" />
+		<property name="mail" value="Mahendra" />
+		<!-- <property name="addr">
+			<bean id="address" class="com.mgBusiness.beans.Address">
+				<property name="HNO" value="123" />
+				<property name="colony" value="NTR" />
+				<property name="city" value="kurnool" />
+				<property name="state" value="Andhra Pradesh" />
+
+			</bean>
+			
+
+		</property>  -->
+	</bean>
+	 <bean class="com.mgBusiness.processor.BeanpostProcessor"/> 
+
+</beans>

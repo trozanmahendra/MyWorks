@@ -1,0 +1,31 @@
+package testdemo;
+class A{
+	private A(){
+		
+	}
+	static{
+		System.out.println("class AB loading...............");
+	}
+	static void m1() {
+		System.out.println("class A-m1 loading...............");
+	}
+}
+class B{
+	B(int i){
+		System.out.println("class B loading......................");
+	}
+}
+
+	
+
+public class demo {
+public static void main(String[] args)throws Exception{
+	A.m1();
+	Class a= Class.forName("testdemo.A");
+	Object obj = a.newInstance();
+	
+	Class b = Class.forName("testdemo.B"):
+	}
+      
+	    }
+	

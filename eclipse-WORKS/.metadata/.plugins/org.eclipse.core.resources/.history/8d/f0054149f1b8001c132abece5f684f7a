@@ -1,0 +1,22 @@
+package com.mgBusiness.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.mgBusiness.dao.EmployeeDao;
+import com.mgBusiness.dto.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext(
+				"com/mgBusiness/resorces/ApplicationContext.xml");
+		EmployeeDao employeeDao = (EmployeeDao) context.getBean("employeeDao");
+		Employee emp = new Employee();
+		emp.setEaddr("KNL");
+		emp.setEid(100);
+		emp.setEname("Mahendra");
+		emp.setEsal(50000);
+	}
+
+}

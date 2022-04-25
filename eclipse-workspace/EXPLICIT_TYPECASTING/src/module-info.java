@@ -1,0 +1,2 @@
+module EXPLICIT_TYPECASTING {
+}

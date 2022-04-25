@@ -1,0 +1,16 @@
+package com.javaInterveiw.Test;
+
+public class Test extends Object {
+	
+
+	public static void main(String mg[]) {
+		Object[] o = new Object[123456789];
+		o[1] = 1;
+		o[0] = "String";
+		o[2] = true;
+
+		Object[] o1 = {1,"String",true,false,'e'};
+		System.out.println(o[2]+"   "+o1[3]+"  "+o.length+"   "+o1.length);
+	}
+
+}

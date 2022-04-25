@@ -1,0 +1,239 @@
+
+Mar 11, 2022 10:50:59.27 NEW SESSION
+Mar 11, 2022 10:50:59.29 Opening in existing browser session.
+Mar 11, 2022 10:50:59.50 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:50:59.50 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:51:15.95 Opening in existing browser session.
+Mar 11, 2022 10:51:16.10 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:51:16.10 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:51:16.10 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 10:51:16.11 [31829:31829:0100/000000.114754:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 10:52:35.56 Opening in existing browser session.
+Mar 11, 2022 10:52:35.74 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:52:35.74 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:52:35.74 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 10:52:35.76 [32432:32432:0100/000000.765189:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 10:55:41.46 Opening in existing browser session.
+Mar 11, 2022 10:55:41.59 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:55:41.59 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:55:41.60 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 10:55:41.60 [33347:33347:0100/000000.607596:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 10:57:08.50 Opening in existing browser session.
+Mar 11, 2022 10:57:08.64 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:57:08.64 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:57:08.64 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 10:57:08.64 [33819:33819:0100/000000.648170:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 10:59:23.67 Opening in existing browser session.
+Mar 11, 2022 10:59:23.76 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:59:23.76 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:59:23.76 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 10:59:23.78 [34506:34506:0100/000000.782288:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 10:59:48.56 Opening in existing browser session.
+Mar 11, 2022 10:59:48.74 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 10:59:48.74 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 10:59:48.74 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 10:59:48.75 [34779:34779:0100/000000.756321:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 11:02:41.80 Opening in existing browser session.
+Mar 11, 2022 11:02:41.93 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 11:02:41.93 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 11:02:41.93 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 11:02:41.95 [35609:35609:0100/000000.955747:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 11:16:27.63 Opening in existing browser session.
+Mar 11, 2022 11:16:27.74 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 11:16:27.74 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 11:16:27.74 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 11:16:27.74 [39419:39419:0100/000000.746301:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 11:18:46.47 Opening in existing browser session.
+Mar 11, 2022 11:18:46.73 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 11:18:46.73 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 11:18:46.74 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 11:18:46.78 [40233:40233:0100/000000.787711:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:26:06.52 Opening in existing browser session.
+Mar 11, 2022 12:26:06.75 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:26:06.75 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:26:06.75 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:26:06.79 [58376:58376:0100/000000.790933:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:26:35.15 Opening in existing browser session.
+Mar 11, 2022 12:26:35.33 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:26:35.34 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:26:35.34 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:26:35.34 [58600:58600:0100/000000.349117:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:27:36.93 Opening in existing browser session.
+Mar 11, 2022 12:27:37.05 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:27:37.05 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:27:37.05 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:27:37.06 [58966:58966:0100/000000.065844:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:28:44.97 Opening in existing browser session.
+Mar 11, 2022 12:28:45.10 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:28:45.10 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:28:45.10 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:28:45.12 [59401:59401:0100/000000.121304:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:30:09.30 Opening in existing browser session.
+Mar 11, 2022 12:30:09.46 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:30:09.46 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:30:09.46 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:30:09.48 [59864:59864:0100/000000.482368:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:32:58.09 Opening in existing browser session.
+Mar 11, 2022 12:32:58.17 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:32:58.17 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:32:58.17 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:32:58.18 [60757:60757:0100/000000.186281:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 11, 2022 12:33:43.29 Opening in existing browser session.
+Mar 11, 2022 12:33:43.44 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 11, 2022 12:33:43.44 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 11, 2022 12:33:43.44 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 11, 2022 12:33:43.46 [61049:61049:0100/000000.468405:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+Mar 12, 2022 14:18:21.53 NEW SESSION
+Mar 12, 2022 14:18:21.53 Opening in existing browser session.
+Mar 12, 2022 14:18:21.86 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 14:18:21.87 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 14:18:21.87 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 14:18:21.88 [36957:36957:0100/000000.888547:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+Mar 12, 2022 18:32:41.08 NEW SESSION
+Mar 12, 2022 18:32:41.08 Opening in existing browser session.
+Mar 12, 2022 18:32:41.17 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:32:41.17 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:32:41.17 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:32:41.18 [11842:11842:0100/000000.182925:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:37:26.21 Opening in existing browser session.
+Mar 12, 2022 18:37:26.38 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:37:26.38 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:37:26.38 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:37:26.39 [13206:13206:0100/000000.395129:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:37:47.07 Opening in existing browser session.
+Mar 12, 2022 18:37:47.23 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:37:47.23 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:37:47.23 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:37:47.26 [13386:13386:0100/000000.258780:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:38:08.30 Opening in existing browser session.
+Mar 12, 2022 18:38:08.46 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:38:08.46 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:38:08.46 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:38:08.47 [13583:13583:0100/000000.470771:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:38:25.20 Opening in existing browser session.
+Mar 12, 2022 18:38:25.41 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:38:25.41 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:38:25.41 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:38:25.43 [13772:13772:0100/000000.436554:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:44:43.27 Opening in existing browser session.
+Mar 12, 2022 18:44:43.42 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:44:43.42 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:44:43.42 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:44:43.44 [15596:15596:0100/000000.445441:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:47:34.96 Opening in existing browser session.
+Mar 12, 2022 18:47:35.12 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:47:35.13 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:47:35.13 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:47:35.14 [16518:16518:0100/000000.140445:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:48:15.38 Opening in existing browser session.
+Mar 12, 2022 18:48:15.59 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:48:15.59 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:48:15.59 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:48:15.61 [16779:16779:0100/000000.612654:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:48:42.19 Opening in existing browser session.
+Mar 12, 2022 18:48:42.31 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:48:42.31 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:48:42.31 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:48:42.33 [17050:17050:0100/000000.330242:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:50:59.42 Opening in existing browser session.
+Mar 12, 2022 18:50:59.62 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:50:59.62 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:50:59.62 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:50:59.64 [17795:17795:0100/000000.643231:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 12, 2022 18:53:20.99 Opening in existing browser session.
+Mar 12, 2022 18:53:21.15 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 12, 2022 18:53:21.15 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 12, 2022 18:53:21.15 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 12, 2022 18:53:21.17 [18568:18568:0100/000000.170744:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+Mar 12, 2022 22:44:56.62 NEW SESSION
+Mar 12, 2022 22:44:56.62 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:56.64 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:56.69 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:56.76 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:58.10 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:58.13 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:58.18 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 12, 2022 22:44:58.25 ATTENTION: default value of option mesa_glthread overridden by environment.
+Mar 13, 2022 01:55:23.23 Opening in existing browser session.
+Mar 13, 2022 01:55:23.38 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 01:55:23.38 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 01:55:23.38 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 01:55:23.38 [64191:64191:0100/000000.370913:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:07:10.83 Opening in existing browser session.
+Mar 13, 2022 02:07:10.97 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:07:10.97 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:07:10.97 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:07:10.98 [67355:67355:0100/000000.981952:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:14:52.35 Opening in existing browser session.
+Mar 13, 2022 02:14:52.50 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:14:52.50 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:14:52.51 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:14:52.51 [69427:69427:0100/000000.509572:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:32:07.24 Opening in existing browser session.
+Mar 13, 2022 02:32:07.41 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:32:07.41 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:32:07.41 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:32:07.42 [74073:74073:0100/000000.427740:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:34:58.18 Opening in existing browser session.
+Mar 13, 2022 02:34:58.35 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:34:58.35 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:34:58.35 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:34:58.36 [75146:75146:0100/000000.362577:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:38:17.77 Opening in existing browser session.
+Mar 13, 2022 02:38:17.99 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:38:17.99 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:38:17.99 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:38:18.03 [76529:76529:0100/000000.032916:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:40:59.27 Opening in existing browser session.
+Mar 13, 2022 02:40:59.39 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:40:59.39 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:40:59.39 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:40:59.40 [77404:77404:0100/000000.407676:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:51:02.01 Opening in existing browser session.
+Mar 13, 2022 02:51:02.14 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:51:02.14 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:51:02.14 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:51:02.16 [80129:80129:0100/000000.162127:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 02:54:13.59 Opening in existing browser session.
+Mar 13, 2022 02:54:13.82 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 02:54:13.82 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 02:54:13.82 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 02:54:13.82 [81268:81268:0100/000000.825171:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 04:07:55.25 Opening in existing browser session.
+Mar 13, 2022 04:07:55.45 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 04:07:55.45 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 04:07:55.45 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 04:07:55.46 [101257:101257:0100/000000.464879:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 04:11:44.07 Opening in existing browser session.
+Mar 13, 2022 04:11:44.24 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 04:11:44.24 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 04:11:44.24 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 04:11:44.26 [102356:102356:0100/000000.266458:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 04:19:52.57 Opening in existing browser session.
+Mar 13, 2022 04:19:52.70 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 04:19:52.70 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 04:19:52.70 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 04:19:52.72 [104694:104694:0100/000000.727552:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 04:23:39.90 Opening in existing browser session.
+Mar 13, 2022 04:23:40.04 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 04:23:40.04 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 04:23:40.04 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 04:23:40.05 [105875:105875:0100/000000.059031:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 04:26:13.51 Opening in existing browser session.
+Mar 13, 2022 04:26:13.66 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 04:26:13.66 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 04:26:13.66 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 04:26:13.66 [106737:106737:0100/000000.668464:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 04:38:09.77 Opening in existing browser session.
+Mar 13, 2022 04:38:09.90 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 04:38:09.90 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 04:38:09.90 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 04:38:09.92 [110011:110011:0100/000000.920458:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Mar 13, 2022 05:25:57.84 Opening in existing browser session.
+Mar 13, 2022 05:25:58.05 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Mar 13, 2022 05:25:58.05 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Mar 13, 2022 05:25:58.05 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Mar 13, 2022 05:25:58.07 [122607:122607:0100/000000.074103:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.

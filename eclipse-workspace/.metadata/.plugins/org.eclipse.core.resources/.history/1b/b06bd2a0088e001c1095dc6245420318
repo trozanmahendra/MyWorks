@@ -1,0 +1,29 @@
+
+public class PowerOfANumber {
+
+	public static int power(int n, int p) {
+		int count = 0;
+		int ans = 1;
+		if(p >= 0) {
+		if (count != p) {
+			count++;
+			ans = 1 * n * power(n, p - 1);
+			return ans;
+
+		} else {
+
+			return 1;
+		}
+		}else {
+			System.out.println("only posir");
+		}
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println(PowerOfANumber.power(6, 2));
+		;
+
+	}
+
+}

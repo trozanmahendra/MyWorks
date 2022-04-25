@@ -1,0 +1,11 @@
+package testdemo;
+
+//import java.nio.charset.Charset;
+
+public class demo {
+public static void main(String[] args)throws Exception {
+	byte[] b= {65,66,67,68,69,70};
+	String s = new String(b, 1,4 ,"UTF-16LE");
+	System.out.println(s);
+	    }
+	}

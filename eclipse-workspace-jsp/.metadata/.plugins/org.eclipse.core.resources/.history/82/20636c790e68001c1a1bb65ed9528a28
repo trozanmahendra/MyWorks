@@ -1,0 +1,11 @@
+package com.mgBusiness.TransactionService;
+
+public class TransactionService {
+	public int deposit(String accnum,int depamt) {
+		
+		int totalAmt=0;
+		
+		return totalAmt;
+	}
+
+}

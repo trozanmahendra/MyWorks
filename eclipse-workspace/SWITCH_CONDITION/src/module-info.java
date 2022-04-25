@@ -1,0 +1,2 @@
+module SWITCH_CONDITION {
+}

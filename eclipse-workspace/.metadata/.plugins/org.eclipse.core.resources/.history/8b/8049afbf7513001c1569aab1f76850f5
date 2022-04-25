@@ -1,0 +1,10 @@
+package iterative_Statements;
+
+public class WhileLoop1 {
+
+	public static void main(String[] args) {
+		System.out.println("\tWHILE LOOP OPERATION\n"+"--------------------------------------------");
+
+	}
+
+}

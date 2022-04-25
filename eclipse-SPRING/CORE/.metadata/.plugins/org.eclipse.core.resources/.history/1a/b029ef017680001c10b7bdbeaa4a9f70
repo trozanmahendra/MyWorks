@@ -1,0 +1,11 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	public static void main(String[] args) {
+		char ch='D'; if(ch > 70) { System.out.println("APPLE"); } else { System.out.println("CHERRY"); }
+     
+	}
+}

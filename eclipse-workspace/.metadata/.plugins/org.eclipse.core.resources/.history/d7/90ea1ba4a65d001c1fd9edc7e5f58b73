@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UserRegForm</title>
+</head>
+<body style="color: blue;">
+	<h1 style="color: red;" align="center">MG BUSINESS</h1>
+	<h2 style="color: brown;" align="center">STUDENT
+		COURSES REGSTRATION FORM</h2>
+	<form method="post" action="./reg">
+		<table align="center">
+			<tr>
+				<td>STUDENT NAME</td>
+				<td><input type="text" name="sname"></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>STUDENT QUALIFICATIONS</td>
+				<td><input type="checkbox" name="squal" value="BSC">BSC</td>
+				<td><input type="checkbox" name="squal" value="BTECH">BTECH</td>
+				<td><input type="checkbox" name="squal" value="BE">BE</td>
+				<td><input type="checkbox" name="squal" value="MCA">MCA</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>STUDENT GENDER</td>
+				<td><input type="radio" name="sgender" value="Male">Male</td>
+				<td><input type="radio" name="sgender" value="FeMale">FeMale</td>
+				<td><input type="radio" name="sgender" value="Trans">Trans</td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td>STUDENT COURSES</td>
+				<td><select name="scourses" size="5" multiple="multiple">
+						<option style="color: brown;" value="C">C</option>
+						<option style="color: brown;" value="C++">C++</option>
+						<option style="color: brown;" value="PYTHON">PYTHON</option>
+						<option style="color: brown;" value="JAVA">JAVA</option>
+						<option style="color: brown;" value="ORACLE">ORACLE</option>
+						<option style="color: brown;" value=".NET">.NET</option>
+						<option style="color: brown;" value="ANGULAR">ANGULAR</option>
+				</select></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>LOCATION</td>
+				<td><select name="loc">
+						<option value="HYDERABAD">HYDERABAD</option>
+						<option value="BANGLORE">BANGLORE</option>
+						<option value="CHENNAI">CHENNAI</option>
+						<option value="PUNE">PUNE</option>
+				</select></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>STUDENT ADDRESS</td>
+				<td><textarea name="saddr" rows="5" cols="30"></textarea></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><input type="submit" value="REGISTER-NOW"></td>
+			</tr>
+			<tr></tr>
+		</table>
+	</form>
+	<h4 align="right">&copy;MG</h4>
+</body>
+</html>

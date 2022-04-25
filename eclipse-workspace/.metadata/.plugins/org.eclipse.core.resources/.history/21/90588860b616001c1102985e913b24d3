@@ -1,0 +1,27 @@
+package testdemo;
+class A{
+	
+	int i=10;
+	void m1() {
+		System.out.println("m1-A");
+		i=20;
+		System.out.println(this.i+"   "+i);
+	}
+	void m2() {
+		
+		
+		System.out.println("m2-A");
+		m1();
+		this.m1();
+	}
+	
+}
+
+public class demo {
+public static void main(String[] args) {
+	 
+A a=new A();
+a.m2();
+	    
+	    }
+	}

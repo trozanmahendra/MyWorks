@@ -1,0 +1,22 @@
+package palindrome;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("Enter any number : ");
+		Scanner sc = new Scanner(System.in);
+		String s1 = sc.next();
+		StringBuffer sb1 = new StringBuffer(s1);
+		StringBuffer sbr = sb1.reverse();
+		if(sbr.equals(sb1))
+			System.out.println("Yup Palindrome"+sbr+" "+sb1);
+		else {
+			System.out.println("Nope----------------");
+		}
+		
+
+	}
+
+}

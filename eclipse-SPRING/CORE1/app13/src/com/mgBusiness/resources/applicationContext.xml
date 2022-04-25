@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd"
+        xmlns:context="http://www.springframework.org/schema/context">
+     <bean id="emp" class="com.mgBusiness.beans.Employee" p:eid="e-111" p:ename="Mg" p:esal="50000" autowire="byName"  />
+     <bean id="account" class="com.mgBusiness.beans.Account" p:accNo="A-111" p:accName="Mahendra" p:accBranch="KNL" />          
+      <context:annotation-config/>          
+</beans>
+                

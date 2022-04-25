@@ -1,0 +1,10 @@
+package com.javaInterveiw.Test;
+
+public class Test extends Object{
+	char a;
+	public static void main(String[] args) {
+		Test t = new Test();
+                     System.out.print(t.a); 
+     
+	}
+}

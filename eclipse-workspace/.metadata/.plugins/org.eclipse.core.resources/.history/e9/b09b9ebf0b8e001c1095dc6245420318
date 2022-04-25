@@ -1,0 +1,18 @@
+package com.mg.test;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import com.mg.PowerOfANumber;
+
+public class PowerTest {
+@SuppressWarnings("deprecation")
+@Test
+	public void tester() {
+//		PowerOfANumber pn = new PowerOfANumber();
+		assertEquals(36, PowerOfANumber.power(6, 2),0);
+
+	}
+
+}

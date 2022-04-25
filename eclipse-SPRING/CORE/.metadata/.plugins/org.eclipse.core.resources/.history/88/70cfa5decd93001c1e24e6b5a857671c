@@ -1,0 +1,5 @@
+package com.mgBusiness.beans;
+
+public class HelloBean {
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=serv-app08/\/opt\/tomcat\/lib\/tomcat-websocket.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/http:\/\/tomcat.apache.org\/tomcat-10.0-doc\/api\/=/&lt;org.apache.tomcat.websocket(WsWebSocketContainer$HttpResponse.class[HttpResponse" modifiers="10" timestamp="1636495978000"/>
+    <typeInfo handle="=jsp-7/\/home\/mg\/Payara_Server\/glassfish\/modules\/jakarta.servlet.jsp-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/jakarta.ee\/specifications\/platform\/8\/apidocs=/&lt;javax.servlet.jsp.tagext(TagSupport.class[TagSupport" modifiers="33" timestamp="1641065328603"/>
+</typeInfoHistroy>

@@ -1,0 +1,18 @@
+package arrays;
+
+public class Simple_Array {
+
+	public static void main(String[] args) throws Exception{
+		int[][] a = {{1,2},{3,4},{5,6,7}};
+		System.out.println(a.length+" "+a);
+		
+		for(int i[] : a) {
+			for(int j : i) {
+				System.out.print(j+",");
+			}
+			
+		}
+
+	}
+
+}

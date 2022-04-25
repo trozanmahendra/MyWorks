@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;HAS_A_relationship&apos;" deleteContents="false" description="Delete resource &apos;HAS_A_relationship&apos;" element1="/HAS_A_relationship" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1631962436846"/>
+</session>

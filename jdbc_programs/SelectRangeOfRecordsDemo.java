@@ -1,0 +1,35 @@
+import java.sql.*;
+import java.util.*;
+
+public class SelectRangeOfRecordsDemo
+{
+	public static void main(String[] args) throws Exception
+	{
+		String driver="oracle.jdbc.OracleDriver";
+		String jdbc_url="jdbc:oracle:thin:@localhost:1521:XE";
+		String user="scott";
+		String pwd="tiger";
+		Class.forName(driver);
+		Connection con = DriverManager.getConnection(jdbc_url,user,pwd);
+		Statement st = con.createStatement();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter City Name:");
+		String addr=sc.nextLine();
+		String sqlQuery=String.format("select * from employees where eaddr='%s'",addr);
+		ResultSet rs =st.executeQuery(sqlQuery);
+	    boolean flag=false;
+		System.out.println("ENO\tENAME\tESALARY\tEADDR");
+		System.out.println("--------------------------------------");
+		while(rs.next())
+		{
+			flag=true;
+			//System.out.println(rs.getInt("eno")+"\t"+rs.getString("ename")+"\t"+rs.getDouble("esal")+"\t"+rs.getString("eaddr"));
+			System.out.println(rs.getInt(1)+"\t"+rs.getString(2)+"\t"+rs.getDouble(3)+"\t"+rs.getString(4));
+		}
+		if(flag==false)
+		{
+			System.out.println("No Records are available");
+		}
+		con.close();
+	}
+}

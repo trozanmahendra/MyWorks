@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.mg&apos; to &apos;recurssion/src&apos;&#x0A;- Original project: &apos;recurssion&apos;&#x0A;- Destination element: &apos;recurssion/src&apos;&#x0A;- Original element: &apos;recurssion/src/com.mg&apos;" description="Copy package" destination="/src" element1="/src&lt;com.mg" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1644893257909" version="1.0"/>
+</session>

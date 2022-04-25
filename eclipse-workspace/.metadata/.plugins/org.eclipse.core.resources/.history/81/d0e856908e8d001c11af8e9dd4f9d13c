@@ -1,0 +1,22 @@
+package com.mgBusiness;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test {
+	static int count;
+
+	public static void main(String[] args) {
+
+		Pattern p = Pattern.compile("[a-zA-Z0-9]*.@gmail.com");
+		Matcher m = p.matcher("@gmail.com");
+		
+		if(m.find()) {
+			System.out.println("valid mail");
+		}else {
+			System.out.println("Invalid mail");
+		}
+				
+	}
+
+}

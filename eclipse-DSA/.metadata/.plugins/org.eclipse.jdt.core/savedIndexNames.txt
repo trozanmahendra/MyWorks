@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+/home/mg/eclipse-DSA/.metadata/.plugins/org.eclipse.jdt.core
+1246966139.index
+34788559.index
+116379835.index
+286028792.index
+656921110.index
+2666506467.index
+1865797976.index
+3550838318.index

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;myRequest&apos; from expression &apos;new MyRequest((HttpServletRequest)request)&apos;&#x0A;- Original project: &apos;serv-app08&apos;&#x0A;- Variable name: &apos;myRequest&apos;&#x0A;- Destination method: &apos;com.mgBusiness.filters.RegisterFilter.doFilter(...)&apos;&#x0A;- Variable expression: &apos;new MyRequest((HttpServletRequest)request)&apos;" description="Extract local variable &apos;myRequest&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;com.mgBusiness.filters{RegisterFilter.java" name="myRequest" replace="false" selection="1041 0" stamp="1640885473508" varType="false" version="1.0"/>
+</session>

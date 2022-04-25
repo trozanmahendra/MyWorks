@@ -1,0 +1,6 @@
+#GlassFish 3
+#Fri Jan 07 20:17:16 IST 2022
+org.eclipse.jst.jee.server\:jsp-7=/home/mg/Payara_Server/glassfish/domains/mg/eclipseApps/jsp-7
+org.eclipse.jst.jee.server\:jsp-3=/home/mg/Payara_Server/glassfish/domains/mg/eclipseApps/jsp-3
+org.eclipse.jst.jee.server\:jsp-1=/home/mg/Payara_Server/glassfish/domains/mg/eclipseApps/jsp-1
+org.eclipse.jst.jee.server\:jsp-2=/home/mg/Payara_Server/glassfish/domains/mg/eclipseApps/jsp-2

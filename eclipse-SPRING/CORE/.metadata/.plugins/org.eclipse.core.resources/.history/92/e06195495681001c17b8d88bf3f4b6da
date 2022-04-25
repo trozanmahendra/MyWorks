@@ -1,0 +1,68 @@
+package com.javaInterveiw.Test;
+
+class WrongPin extends Exception {
+
+	public Exception(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+	private static final long serialVersionUID = 1L;
+
+//	public WrongPin() {
+//		System.out.println("Wrong pin entered*********************");
+//	}
+//
+//	@Override
+//	public String getMessage() {
+//		// System.out.println("Wrong pin entered*********************");
+//		return super.getMessage();
+//	}
+}
+
+public class Test extends Object {
+
+	public static void main(String mg[], Throwable Throwable) {
+		try {
+			String args[] = new String[10];
+			args[0] = "123";
+			args[1] = "123";
+			args[2] = "123";
+			args[3] = "124";
+			String accNo = args[0];
+			String accName = args[1];
+			int pin_Num = Integer.parseInt(args[2]);
+			String accType = args[3];
+			System.out.println("Account Details");
+
+			System.out.println("---------------------");
+
+			System.out.println("Account Number :" + accNo);
+			System.out.println("Account Name :" + accName);
+
+			System.out.println("Account Type :" + accType);
+
+			System.out.println("Account PIN Number:" + pin_Num);
+
+			if (pin_Num >= 1000 && pin_Num <= 9999) {
+
+				System.out.println("valid PIN Number");
+
+			}
+
+			else {
+
+				throw new Exception("wrong pin--------------",Throwable);
+
+			}
+		} catch (NumberFormatException | WrongPin e) {
+//			System.out.println(e);
+			e.printStackTrace();
+//			e.getMessage();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

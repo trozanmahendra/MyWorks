@@ -1,0 +1,20 @@
+package testdemo;
+
+public class demo {
+public static void main(String[] args) {
+	    String str=new String("this ");
+	    String str1=str.concat("is ");	
+	    String str2=str1.concat("mahendra");
+	    
+	    System.out.println(str);
+	    System.out.println(str1);
+	    System.out.println(str2);
+	    
+	    StringBuffer sb=new StringBuffer("this ");
+	    StringBuffer sb1=sb.append("is ");
+	    StringBuffer sb2=sb1.append("mahendra");
+	    System.out.println(sb);
+
+	    
+	    }
+	}

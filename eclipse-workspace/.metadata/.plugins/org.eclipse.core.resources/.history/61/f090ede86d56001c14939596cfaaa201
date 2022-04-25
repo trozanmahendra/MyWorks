@@ -1,0 +1,21 @@
+package gui2;
+
+import java.awt.*;
+
+@SuppressWarnings("serial")
+public class LoginFrame extends Frame {
+	public LoginFrame() {
+		this.setVisible(true);
+		this.setSize(1000, 500);
+		this.setBackground(Color.magenta);
+		this.setTitle("WELCOME FRAME");
+	}
+
+	public void Paint(Graphics g) {
+		Font font = new Font("arial", Font.BOLD, 20);
+		g.setFont(font);
+		this.setForeground(Color.red);
+		g.drawString("WELCOME TO JAVA GUI-------", 100, 100);
+	}
+
+}

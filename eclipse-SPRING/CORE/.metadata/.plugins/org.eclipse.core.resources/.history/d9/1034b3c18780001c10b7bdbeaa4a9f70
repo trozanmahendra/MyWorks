@@ -1,0 +1,18 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	
+	  public static void main(String[] args)
+	  {
+		  static int[] num;
+		  public static void main(String args[])
+		  {
+		    System.out.println(num.length);
+		  }
+
+
+	  }
+}

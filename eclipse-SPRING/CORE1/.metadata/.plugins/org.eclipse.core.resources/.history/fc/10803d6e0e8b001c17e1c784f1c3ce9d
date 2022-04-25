@@ -1,0 +1,16 @@
+package test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int n = 5;
+		int count = 1;
+		for(int i=1;i<0;i++) {
+			count++;
+			i*=(i+count);
+		}
+		System.out.println(i);
+
+	}
+
+}

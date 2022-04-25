@@ -1,0 +1,14 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>3.0</jsp-version>
+	<tag>
+		<name>iterate</name>
+		<tag-class>com.mgBusiness.Iterator</tag-class>
+		<body-content>jsp</body-content>
+		<attribute>
+		<name>times</name>
+			<requried>true</requried>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

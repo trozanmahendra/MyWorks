@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	                http://www.springframework.org/schema/beans/spring-beans.xsd
+	                http://www.springframework.org/schema/util
+	                http://www.springframework.org/schema/util/spring-util.xsd">
+	<util:list id="good_price"  list-class="java.util.ArrayList" value-type="String">
+		<value>Rice</value>
+		<value>dal</value>
+		<value>oil</value>
+	</util:list>
+	<bean id="customer" class="com.mgBusiness.beans.Customer"
+		p:cid="C-222" p:cname="Bg" p:caddr="hyd" p:good_price-ref="good_price">
+		<!-- <constructor-arg value="c-111" />
+		<constructor-arg value="MG" />
+		<constructor-arg value="KNL" /> -->
+
+
+		<!-- <property name="cid" value="C-222" /> <property name="cname" value="Bg" 
+			/> <property name="caddr" value="hyd" /> -->
+	</bean>
+
+</beans>
+                

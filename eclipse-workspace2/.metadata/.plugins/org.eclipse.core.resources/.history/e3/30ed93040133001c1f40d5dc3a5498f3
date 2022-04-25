@@ -1,0 +1,20 @@
+package flow_control;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("Palindrome Check"+"--------------------------------");
+		String s="boby";
+		String s1="boby";
+		System.out.println(s==s1);
+		if(s1.equals(s)) {
+			System.out.println("yes ");
+		}else if(s==s1) {
+			System.out.println("no ");
+		}else {
+			System.out.println("nope");
+		}
+		
+	}
+
+}

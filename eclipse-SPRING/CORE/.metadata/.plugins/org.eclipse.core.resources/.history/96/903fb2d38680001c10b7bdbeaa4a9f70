@@ -1,0 +1,16 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	static int[] num;
+	public static void main(String args[])
+	{
+		boolean[] ary = {true, false, true, true};
+		for(int i=0; i<ary.length; i++)
+		{
+		    System.out.print(ary[i] +",");
+		}
+	}
+}

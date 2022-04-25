@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Generic_Impl&apos; to &apos;generic_Impl&apos;&#x0A;- Original project: &apos;intervew_mod2-Generics&apos;&#x0A;- Original element: &apos;intervew_mod2-Generics/src/Generic_Impl&apos;&#x0A;- Renamed element: &apos;intervew_mod2-Generics/src/generic_Impl&apos;&#x0A;- Update references to refactored element&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;Generic_Impl&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Generic_Impl" name="generic_Impl" patterns="*" qualified="true" references="true" stamp="1644311371535" textual="true" version="1.0"/>
+</session>

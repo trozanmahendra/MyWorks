@@ -1,0 +1,13 @@
+
+Feb 09, 2022 19:09:15.886 NEW SESSION
+Feb 09, 2022 19:09:15.886 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Feb 09, 2022 19:09:15.948 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Feb 09, 2022 19:09:49.846 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Feb 09, 2022 19:09:49.904 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Feb 09, 2022 19:10:13.860 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+Feb 09, 2022 19:10:13.917 Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /home/mg/.Xauthority which is owned by mg.)
+
+Mar 11, 2022 10:46:41.919 NEW SESSION
+Mar 11, 2022 10:46:41.919 [29092:29092:0311/104641.917118:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Mar 11, 2022 10:47:18.631 [30470:30470:0311/104718.631056:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Mar 11, 2022 10:51:40.523 [32016:32016:0311/105140.523461:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.

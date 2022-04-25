@@ -1,0 +1,23 @@
+package testdemo;
+class A{
+	void m1() {
+		System.out.println("m1-A");
+	}
+}
+class B extends A{
+	void m2(){
+		System.out.println("m2-B");
+	}
+}
+	
+
+public class demo {
+public static void main(String[] args){
+	A a = new A();
+	//B b = (B)a;
+	A b = (A)a;
+	b.m1();
+	}
+      
+	    }
+	

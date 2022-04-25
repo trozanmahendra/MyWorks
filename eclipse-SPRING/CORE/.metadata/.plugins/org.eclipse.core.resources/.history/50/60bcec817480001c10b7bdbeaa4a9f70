@@ -1,0 +1,13 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	char a;
+	public static void main(String[] args) {
+			float a=8.2/2;
+	
+                     System.out.print(a); 
+     
+	}
+}

@@ -1,0 +1,13 @@
+package intref01;
+interface interf{
+	public static void m1() {
+		System.out.println("Static method in interface");
+	}
+}
+public class Demo01 {
+
+	public static void main(String[] args) {
+		interf.m1();
+	}
+
+}

@@ -1,0 +1,16 @@
+package testdemo;
+class A{
+	int i =12;
+	void m1() {
+		System.out.println("m1-A");
+	}
+}
+
+public class demo {
+public static void main(String[] args)throws Exception{
+	A a = new A();
+	System.out.println(a.i);
+	a.m1();
+      
+	    }
+	}

@@ -1,0 +1,14 @@
+package com.mgBusiness.mapper;
+
+import javax.swing.tree.RowMapper;
+import javax.swing.tree.TreePath;
+
+public class EmployeeRowMapper implements RowMapper {
+
+	@Override
+	public int[] getRowsForPaths(TreePath[] arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

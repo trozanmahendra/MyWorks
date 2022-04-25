@@ -1,0 +1,18 @@
+package flow_control;
+
+public class Test {
+
+	public static void main(String[] args) {
+		System.out.println("Palindrome Check"+"--------------------------------");
+		StringBuffer s=new StringBuffer("boby");
+		StringBuffer s1=s.reverse();
+		System.out.println(s==s1);
+		if(s==s1) {
+			System.out.println("yes "+s+" is palindroe");
+		}else {
+			System.out.println("no "+s+" not a palindrome");
+		}
+		
+	}
+
+}

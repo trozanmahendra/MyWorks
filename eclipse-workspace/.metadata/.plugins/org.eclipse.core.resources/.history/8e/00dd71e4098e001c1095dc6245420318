@@ -1,0 +1,9 @@
+package com.mg.test;
+public class PowerTest {
+
+	public void tester() {
+		
+
+	}
+
+}

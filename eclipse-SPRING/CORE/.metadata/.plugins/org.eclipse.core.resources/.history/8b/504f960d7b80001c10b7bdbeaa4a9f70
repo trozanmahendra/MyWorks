@@ -1,0 +1,18 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	static int[] num;
+	public static void main(String args[])
+	{
+		char ch[] = {'A', 'B', 'C'};
+		int i=1;
+		do
+		{
+		  System.out.print(ch[i] + ",");
+		  i++;
+		}while(i < ch.length);
+	}
+}

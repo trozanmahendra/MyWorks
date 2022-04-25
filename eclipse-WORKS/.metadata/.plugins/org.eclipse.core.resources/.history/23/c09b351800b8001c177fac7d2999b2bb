@@ -1,0 +1,5 @@
+package com.mgBusiness.dao;
+
+public interface EmployeeDao {
+
+}

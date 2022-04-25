@@ -1,0 +1,12 @@
+package test;
+abstract class A{
+	public final abstract void m1() ;
+	
+}
+public class Test{  
+      
+    public static void main(String args[]){  
+    
+    }  
+   }  
+

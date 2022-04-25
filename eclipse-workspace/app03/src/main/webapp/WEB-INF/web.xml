@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>app03</display-name>
+  <servlet>
+    <description></description>
+    <display-name>Demo</display-name>
+    <servlet-name>Demo</servlet-name>
+    <servlet-class>serv.Demo</servlet-class>
+    <init-param>
+    <param-name>driverClass</param-name>
+    <param-value>com.mysql.cj.jdbc.Driver</param-value>
+    </init-param>
+    <init-param>
+    <param-name>driverURL</param-name>
+    <param-value>jdbc:mysql://localhost:3306/mgdb</param-value>
+    </init-param>
+    <init-param>
+    <param-name>userName</param-name>
+    <param-value>mg</param-value>
+    </init-param>
+    <init-param><param-name>password</param-name>
+    <param-value>12345</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Demo</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,10 @@
+package patterns;
+
+public class Pattern1 {
+
+	public static void main(String[] args) {
+		System.out.println("\n\t10*10 STAR PATTERN\n"+"================================================");
+
+	}
+
+}

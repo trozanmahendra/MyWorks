@@ -1,0 +1,22 @@
+package com.mgBusiness.I18N;
+
+import java.text.DateFormat;
+import java.text.NumberFormat;
+import java.util.Date;
+import java.util.Locale;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Locale l = new Locale("ind","IND");
+		NumberFormat nf = NumberFormat.getInstance(l);
+		
+		System.out.println(nf.format(1234564562.23653));
+		
+		DateFormat df = DateFormat.getDateInstance(1,l);
+		
+		System.out.println(df.format(new Date() ));
+
+	}
+
+}

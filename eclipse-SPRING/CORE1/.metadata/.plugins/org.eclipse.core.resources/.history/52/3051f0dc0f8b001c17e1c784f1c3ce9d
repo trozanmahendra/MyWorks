@@ -1,0 +1,15 @@
+package test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int n = 5;
+		int count = 1;
+		for(int i=4;i>0;i--) {
+			System.out.println(n*=(n-i));;
+		}
+		System.out.println(n);
+
+	}
+
+}

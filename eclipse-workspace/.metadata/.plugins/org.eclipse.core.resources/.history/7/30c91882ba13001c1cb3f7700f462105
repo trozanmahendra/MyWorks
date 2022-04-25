@@ -1,0 +1,26 @@
+package patterns;
+
+public class Upsidedownhill1 {
+
+	public static void main(String[] args) {
+		int i=0,j=0,l=0,m=0;
+        for(l=0;l<=10;l++) 
+        {
+        	for(m=0;m<=(10-l);m++)
+        	{
+        		System.out.print("*\t");	
+        	}
+        	System.out.println("");
+        }
+        	for(j=0;j<=i;j++) {
+        		
+        		System.out.print("- \t");	
+        	}
+        	System.out.println("");
+        }
+
+
+
+	}
+
+

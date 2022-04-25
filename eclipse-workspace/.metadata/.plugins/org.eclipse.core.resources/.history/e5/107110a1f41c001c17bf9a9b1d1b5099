@@ -1,0 +1,11 @@
+package testdemo;
+
+
+public class demo {
+public static void main(String[] args) {
+	StringBuilder sb = new StringBuilder("mgh");
+	System.out.println(sb);
+	String s = new String(sb);
+	System.out.println(sb);
+	    }
+	}

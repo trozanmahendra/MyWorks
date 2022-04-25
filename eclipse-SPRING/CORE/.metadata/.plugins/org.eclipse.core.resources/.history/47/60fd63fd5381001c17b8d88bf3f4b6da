@@ -1,0 +1,40 @@
+package com.javaInterveiw.Test;
+
+public class Test extends Object {
+
+	public static void main(String mg[]) {
+		String args[] = new String[10];
+		args[0]="1234";
+		args[1]="1234";
+		args[2]="1234";
+		args[3]="1234";
+		String accNo=args[0];
+		String accName=args[1];
+		int pin_Num=Integer.parseInt(args[2]);
+		String accType=args[3];
+		System.out.println("Account Details");
+
+		System.out.println("---------------------");
+
+		System.out.println("Account Number :"+accNo);
+		System.out.println("Account Name :"+accName);
+
+		System.out.println("Account Type :"+accType);
+
+		System.out.println("Account PIN Number:"+pin_Num);
+
+		if(pin_Num>=1000 && pin_Num<=9999){
+
+		System.out.println("valid PIN Number");
+
+		}
+
+		else{
+
+		throw new RuntimeException("Invalid PIN Number, enter Valid 4 digit PINNumber");
+
+		}
+
+	}
+
+}

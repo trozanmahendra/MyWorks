@@ -1,0 +1,5 @@
+package com.mgBusiness.dto;
+
+public class Employee {
+
+}

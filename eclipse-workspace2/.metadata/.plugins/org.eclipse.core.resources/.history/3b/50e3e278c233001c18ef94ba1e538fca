@@ -1,0 +1,16 @@
+package flow_control;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		String Str="pop",reverseStr="";
+		for(int i=1;i<=Str.length();i++) {
+			reverseStr=reverseStr+Str.charAt(i);
+		}
+		System.out.println(reverseStr);
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	public static void main(String[] args) {
+		boolean b=false; b = !b; System.out.println(b);     
+	}
+}

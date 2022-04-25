@@ -1,0 +1,30 @@
+package com.mgBusiness.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.mgBusiness.entity.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		var employee = new Employee( "Mahendra", 50000.000f, "knl");
+		Configuration cfg = new Configuration();
+		cfg = cfg.configure("hibernate.cfg.xml");
+
+		SessionFactory factory = cfg.buildSessionFactory();
+
+		Session session = factory.openSession();
+		Transaction tx = session.beginTransaction();
+		session.save(employee);
+		tx.commit();
+		session.close();
+		System.out.println(employee);
+
+	}
+
+}
+//org.hibernate.internal.SessionFactoryImpl@3506d826
+//org.hibernate.internal.SessionFactoryImpl@280e8a1a

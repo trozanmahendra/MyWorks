@@ -1,0 +1,18 @@
+package flow_control;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String s="boby";
+		String s1="boby6";
+		//System.out.println(s==s1);
+		if(s1==s) {
+			System.out.println("yes ");
+		
+		}else {
+			System.out.println("nope");
+		}
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/home/mg/Desktop/eclipse-WORKS/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1893143388.index
+/Spring-jdbc01/src/main/java
+/home/mg/Desktop/eclipse-WORKS/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3044301369.index
+/spring-mvc-example/src/main/java
+/home/mg/Desktop/eclipse-WORKS/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1287486857.index
+/Servlets_crud_app/src/main/java

@@ -1,0 +1,2 @@
+module IMPLICT_TYPECASTING {
+}

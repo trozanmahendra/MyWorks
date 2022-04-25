@@ -1,0 +1,16 @@
+package com.javaInterveiw.Test;
+
+import java.util.Scanner;
+
+public class Test extends Object{
+	
+	static int[] num;
+	public static void main(String args[])
+	{
+		String[] a = {"Apple", "Berry"};
+		String str = "Cherry";
+		a[1] = str;
+		str = "Kiwi";
+		System.out.println(a[1]);
+	}
+}

@@ -1,0 +1,26 @@
+package testdemo;
+class A{
+	A(){
+		this(10.0);
+		System.out.println("A-con");
+	}
+	A(int i){
+		this();
+		System.out.println("A-param-int-con");
+		
+	}
+	A(double i){
+		//this(10);
+		System.out.println("A-param-double-con");
+		
+	}
+}
+
+public class demo {
+public static void main(String[] args) {
+	 A a= new A();
+	 
+
+	    
+	    }
+	}

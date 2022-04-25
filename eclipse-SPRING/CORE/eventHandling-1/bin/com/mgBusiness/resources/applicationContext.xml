@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="staredListener" class="com.mgBusiness.Listeners.ContextStartedListenerImpl" />
+         <bean id="stoppedListener" class="com.mgBusiness.Listeners.ContextStoppedListenerImpl" />
+          <bean id="refreshedListener" class="com.mgBusiness.Listeners.ContextRefreshedListenerImpl" />
+           <bean id="closedListener" class="com.mgBusiness.Listeners.ContextClosedListenerImpl" />
+       <bean id="hellobean" class="com.mgBusiness.beans.HelloBean"> 
+       <property name="greet" value="Hello"/>
+       <property name="name" value="Mahendra"/>
+       </bean>
+        
+</beans>
+        

@@ -1,0 +1,13 @@
+package testdemo;
+
+
+public class demo {
+public static void main(String[] args) {
+	
+	String str = new String("0");
+	System.out.println(str.toString());
+	System.out.println(str.hashCode());
+	System.out.println(str.toString());
+	System.out.println(str.hashCode());
+	    }
+	}

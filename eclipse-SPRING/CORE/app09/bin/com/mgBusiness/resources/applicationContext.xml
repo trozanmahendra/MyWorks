@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="address" class="com.mgBusiness.beans.Address">
+		<property name="pno" value="11/23rt" />
+		<property name="street" value="NTR" />
+		<property name="city" value="Kurnool" />
+		<property name="state" value="Andhra Pradesh" />
+	</bean>
+	<bean id="employeeBean" class="com.mgBusiness.beans.EmployeeBean">
+		<property name="ename" value="Mahendra" />
+		<property name="eid" value="M-111" />
+		<property name="esal" value="50000" />
+		<property name="addr" ref="address" />
+		<property name="equal">
+			<list>
+				<value>MSC(PHY)</value>
+				<value>BSC(MPC)</value>
+				<value>HSC</value>
+				<value>SSC</value>
+			</list>
+		</property>
+		<property name="ecourses">
+			<set>
+				<value>JAVA-SE</value>
+				<value>JAVA-EE</value>
+				<value>SPRING</value>
+				<value>LINUX</value>
+			</set>
+		</property>
+		<property name="quals_percentages">
+			<map>
+				<entry key="MSC" value="80%" />
+				<entry key="BSC" value="70%" />
+				<entry key="HSC" value="91%" />
+				<entry key="SSC" value="82%" />
+			</map>
+		</property>
+		<property name="courses_price">
+			<props>
+				<prop key="JAVA-SE">5000</prop>
+				<prop key="JAVA-EE">6000</prop>
+				<prop key="Spring">7000</prop>
+				<prop key="WebServices">2000</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

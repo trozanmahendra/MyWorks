@@ -1,0 +1,2 @@
+module Ternery_Operators {
+}
