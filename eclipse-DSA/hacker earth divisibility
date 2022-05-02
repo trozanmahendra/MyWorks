@@ -1,0 +1,61 @@
+package testClass;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class TestClass {
+	public static void main(String args[]) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		PrintWriter wr = new PrintWriter(System.out);
+		int N = Integer.parseInt(br.readLine().trim());
+		String[] arr_A = br.readLine().split(" ");
+		String[] A = new String[N];
+		for (int i_A = 0; i_A < arr_A.length; i_A++) {
+
+			A[i_A] = arr_A[i_A];
+//			System.out.print(A[i_A]+" ");
+		}
+//		char[] a1 = new char[N / 2];
+		int[] a11 = new int[N / 2];
+		int[] a2 = new int[N / 2];
+		int[] fin = new int[N];
+		for (int i = 0; i < N / 2; i++) {
+//			a1[i] = A[i].charAt(0);
+			a11[i] = Integer.parseInt(Character.toString(A[i].charAt(0)));
+			fin[i] = a11[i];
+//			System.out.print(a11[i] + " ");
+		}
+
+		for (int j = 0; j < N / 2; j++) {
+
+			a2[j] = (Integer.parseInt(A[j + N / 2])) % 10;
+			fin[j + (N / 2)] = a2[j];
+//			System.out.print(a2[j] + " ");
+		}
+		int odd = 0, even = 0 ;
+		for (int k = 0; k < N; k += 2) {
+			odd += fin[k];
+		}
+		for (int k = 1; k < N; k += 2) {
+			even += fin[k];
+		}
+		int diff = odd - even;
+
+//		System.out.println();
+		System.out.println(diff);
+		if (diff < 0) {
+			diff = -diff;
+			System.out.println(diff);
+		} else if (diff % 11 == 0) {
+			System.out.println("OUI");
+		} else {
+			System.out.println("NON");
+		}
+
+		wr.close();
+		br.close();
+	}
+
+}
