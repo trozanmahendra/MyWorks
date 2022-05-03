@@ -1,0 +1,58 @@
+package testClass;
+
+import java.util.Scanner;
+
+public class TestClass {
+	public static void main(String args[]) throws Exception {
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for (int T = 0; T < t; T++) {
+			String N = sc.next();
+			String[] N1 = N.split("");
+			int[] N2 = new int[N1.length];
+			int l = N2.length;
+			int mc = 0;
+			for (int i = 0; i < l; i++) {
+				N2[i] = Integer.parseInt(N1[i]);
+			}
+			for (int i = 0; i < l; i++) {
+				if (N2[i] == 0 || N2[i] == 6 || N2[i] == 9) {
+					mc += 6;
+				} else if (N2[i] == 2 || N2[i] == 3 || N2[i] == 5) {
+					mc += 5;
+				} else if (N2[i] == 4) {
+					mc += 4;
+				} else if (N2[i] == 7) {
+					mc += 3;
+				} else if (N2[i] == 1) {
+					mc += 2;
+				} else {
+					mc += 7;
+				}
+			}
+			int fal = 0;
+			if (mc % 2 == 0) {
+				fal = mc / 2;
+
+				int[] fin = new int[fal];
+				for (int i = 0; i < fal; i++) {
+					fin[i] = 1;
+					System.out.print(fin[i] + "");
+				}
+			} else {
+				fal = (mc - 3) / 2;
+				int[] fin = new int[fal];
+				System.out.print(7 + "");
+				for (int i = 0; i < fal; i++) {
+					fin[i] = 1;
+					System.out.print(fin[i] + "");
+				}
+			}
+
+			System.out.println();
+
+		}
+		sc.close();
+	}
+
+}
