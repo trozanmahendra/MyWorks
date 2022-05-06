@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class Demo {
+
+	static public void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for (int l = 0; l < t; l++) {
+			int n = sc.nextInt();
+			int m = sc.nextInt();
+			int arr[] = new int[m];
+			int count = 0;
+			int N = arr.length;
+			for (int i = 0; i < m; i++) {
+				arr[i] = sc.nextInt();
+			}
+//			Bubble sorting
+			
+	        for (int i = 1; i < N; ++i) {
+	            int key = arr[i];
+	            int j = i - 1;
+	 
+	            /* Move elements of arr[0..i-1], that are
+	               greater than key, to one position ahead
+	               of their current position */
+	            while (j >= 0 && arr[j] > key) {
+	                arr[j + 1] = arr[j];
+	                j = j - 1;
+	            }
+	            arr[j + 1] = key;
+	        }
+	    
+			
+			
+//			for (int i = 0; i < N - 1; i++) {
+//				for (int j = 0; j < N - i - 1; j++)
+//					if (arr[j] > arr[j + 1]) {
+//						int temp = arr[j];
+//						arr[j] = arr[j + 1];
+//						arr[j + 1] = temp;
+//					}
+//			}
+			for (int i = 0; i < N; i++) {
+
+				if (n < arr[i]) {
+					break;
+				}
+				n -= arr[i];
+				count++;
+			}
+
+			System.out.println(count);
+		}
+
+//		for (int x : arr) {
+//			System.out.print(x + " ");
+//		}
+		sc.close();
+
+	}}
