@@ -6,17 +6,18 @@ public class BinarySearchUsingRecurssionMyWay {
 	int mid;
 
 	static int binarySearching(int[] arr, int start, int end, int x) {
-		int mid = (start + end) / 2;
-		if (start == end)
+		if (start > end)
 			return -1;
-		else if (arr[mid] == x)
+		int mid = (start + end) / 2;
+		if (arr[mid] == x)
 			return mid;
-		else if (arr[mid] > x) {
-			end = mid;
-			return binarySearching(arr, start, end - 1, x);
+		else if (x > arr[mid]) {
+//			start = mid;
+			return binarySearching(arr, mid + 1, end, x);
+
 		} else {
-			start = mid;
-			return binarySearching(arr, start + 1, end, x);
+//			end = mid;
+			return binarySearching(arr, start, mid - 1, x);
 		}
 
 	}
