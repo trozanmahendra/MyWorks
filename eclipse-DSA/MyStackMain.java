@@ -1,7 +1,7 @@
 package stack;
 
 import java.util.Arrays;
-
+// Implementation of Stack data structure using array in java with dynamic size and various basic stack  operations like push, pop, isEmpty, peek.
 class MyStack {
 	int[] arr = new int[25];
 	int index;
