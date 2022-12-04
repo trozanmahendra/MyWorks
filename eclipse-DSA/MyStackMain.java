@@ -1,4 +1,4 @@
-package stack;
+
 
 import java.util.Arrays;
 // Implementation of Stack data structure using array in java with dynamic size and various basic stack  operations like push, pop, isEmpty, peek.
@@ -77,7 +77,6 @@ class MyStack {
 	}
 
 }
-
 public class MyStackMain {
 
 	public static void main(String[] args) {
@@ -96,3 +95,4 @@ public class MyStackMain {
 	}
 
 }
+
