@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -47,12 +46,20 @@ public class Main {
 		return rootBinaryTreeNode;
 	}
 
+	int nodeCountOfMyBinaryTreeNode(MyBinaryTreeNode<Integer> binaryTreeNode) {
+		if (binaryTreeNode == null)
+			return 0;
+		int leftCount = nodeCountOfMyBinaryTreeNode(binaryTreeNode.left);
+		int rightCount = nodeCountOfMyBinaryTreeNode(binaryTreeNode.right);
+		return 1 + leftCount + rightCount;
+	}
+
 	public static void main(String[] args) {
 		Main main = new Main();
 		MyBinaryTreeNode<Integer> takeInput = main.takeInputImproved(null, "");
 		new MyBinaryTreeNode<Integer>(null).print(takeInput);
 		System.out.println("Node count in " + takeInput + " is : " + main.treeSize);
-
+		System.out.println(main.nodeCountOfMyBinaryTreeNode(takeInput));
 	}
 
 }
@@ -77,12 +84,10 @@ class MyBinaryTreeNode<T> {
 		System.out.println();
 		print(root.left);
 		print(root.right);
-
 	}
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "MyBinaryTreeNode";
 	}
 
