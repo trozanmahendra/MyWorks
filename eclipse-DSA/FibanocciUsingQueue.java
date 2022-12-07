@@ -1,4 +1,4 @@
-package fibanocciUsingQueue;
+// package fibanocciUsingQueue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -10,7 +10,7 @@ public class FibanocciUsingQueue {
 		integers.offer(0);
 		integers.offer(1);
 		
-		for(int i=0;i<10;i++) {
+		for(int i=0;i<40;i++) {
 			int a = integers.poll();
 			int b = integers.poll();
 			integers.offer(b);
@@ -18,6 +18,6 @@ public class FibanocciUsingQueue {
 			System.out.print(a+" ");
 //			System.out.println(integers);
 		}
-		System.out.println(integers);
+		// System.out.println(integers);
 	}
 }
