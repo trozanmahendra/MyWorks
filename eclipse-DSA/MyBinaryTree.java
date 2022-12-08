@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class MyBinaryTree {
 	int treeSize;
 	Scanner scanner;
+	private static MyBinaryTree main;
 
 	MyBinaryTreeNode<Integer> takeInputImproved(MyBinaryTreeNode<Integer> rootBinaryTreeNode, String str) {
 		if (rootBinaryTreeNode == null)
@@ -58,14 +59,26 @@ public class MyBinaryTree {
 		if(binaryTreeNode.left == null && binaryTreeNode.right == null) return 1;
 		return leavesCount(binaryTreeNode.left) + leavesCount(binaryTreeNode.right);
 	}
-
+	
+	MyBinaryTreeNode<Integer> removeLeaves(MyBinaryTreeNode<Integer> root){
+		if(root == null) return null;
+		if(root.left == null && root.right == null) return null;
+			
+			root.left=removeLeaves(root.left);
+			root.right=removeLeaves(root.right);
+			
+	
+		return root;
+	}
 	public static void main(String[] args) {
-		MyBinaryTree main = new MyBinaryTree();
+		main = new MyBinaryTree();
 		MyBinaryTreeNode<Integer> takeInput = main.takeInputImproved(null, "");
 		new MyBinaryTreeNode<Integer>(null).print(takeInput);
 		System.out.println("Node count in " + takeInput + " is : " + main.treeSize);
 		System.out.println(main.nodeCountOfMyBinaryTreeNode(takeInput));
 		System.out.println(main.leavesCount(takeInput));
+		MyBinaryTreeNode<Integer> r =main.removeLeaves(takeInput);
+		new MyBinaryTreeNode<Integer>(null).print(r);
 	}
 
 }
