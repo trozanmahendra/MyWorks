@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MyBinaryTree {
 	int treeSize;
 	Scanner scanner;
 
@@ -53,13 +53,19 @@ public class Main {
 		int rightCount = nodeCountOfMyBinaryTreeNode(binaryTreeNode.right);
 		return 1 + leftCount + rightCount;
 	}
+	int leavesCount(MyBinaryTreeNode<Integer> binaryTreeNode){
+		if(binaryTreeNode == null) return 0;
+		if(binaryTreeNode.left == null && binaryTreeNode.right == null) return 1;
+		return leavesCount(binaryTreeNode.left) + leavesCount(binaryTreeNode.right);
+	}
 
 	public static void main(String[] args) {
-		Main main = new Main();
+		MyBinaryTree main = new MyBinaryTree();
 		MyBinaryTreeNode<Integer> takeInput = main.takeInputImproved(null, "");
 		new MyBinaryTreeNode<Integer>(null).print(takeInput);
 		System.out.println("Node count in " + takeInput + " is : " + main.treeSize);
 		System.out.println(main.nodeCountOfMyBinaryTreeNode(takeInput));
+		System.out.println(main.leavesCount(takeInput));
 	}
 
 }
@@ -84,6 +90,7 @@ class MyBinaryTreeNode<T> {
 		System.out.println();
 		print(root.left);
 		print(root.right);
+		
 	}
 
 	@Override
