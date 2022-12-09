@@ -63,13 +63,17 @@ public class MyBinaryTree {
 	MyBinaryTreeNode<Integer> removeLeaves(MyBinaryTreeNode<Integer> root){
 		if(root == null) return null;
 		if(root.left == null && root.right == null) return null;
-			
 			root.left=removeLeaves(root.left);
-			root.right=removeLeaves(root.right);
-			
-	
+			root.right=removeLeaves(root.right);	
 		return root;
 	}
+	int heightOfTree(MyBinaryTreeNode<Integer> root) {
+		if(root == null) return 0;
+		int leftHeight = heightOfTree(root.left);
+		int rightHeight = heightOfTree(root.right);
+		return Math.max(leftHeight,rightHeight)+1;
+	}
+	
 	public static void main(String[] args) {
 		main = new MyBinaryTree();
 		MyBinaryTreeNode<Integer> takeInput = main.takeInputImproved(null, "");
@@ -77,8 +81,10 @@ public class MyBinaryTree {
 		System.out.println("Node count in " + takeInput + " is : " + main.treeSize);
 		System.out.println(main.nodeCountOfMyBinaryTreeNode(takeInput));
 		System.out.println(main.leavesCount(takeInput));
+		System.out.println(main.heightOfTree(takeInput)+" height of tree");
 		MyBinaryTreeNode<Integer> r =main.removeLeaves(takeInput);
 		new MyBinaryTreeNode<Integer>(null).print(r);
+		System.out.println(main.heightOfTree(takeInput)+" height of tree");
 	}
 
 }
