@@ -77,7 +77,15 @@ public class MyBinaryTree {
 		if(root == null ) return true;
 		int lh= heightOfTree(root.left);
 		int rh = heightOfTree(root.right);
-		return (lh == rh) ?true:false;
+		if (Math.abs(lh - rh) > 1)return false;
+        boolean isLeftbalanced = isBalanced(root.left);
+        boolean isRightBalanced = isBalanced(root.right);
+
+        return isLeftbalanced && isRightBalanced;
+// 		if(root == null ) return true;
+// 		int lh= heightOfTree(root.left);
+// 		int rh = heightOfTree(root.right);
+// 		return (lh == rh) ?true:false;
 	}
 	
 	public static void main(String[] args) {
