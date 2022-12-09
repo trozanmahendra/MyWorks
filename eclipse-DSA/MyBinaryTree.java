@@ -73,6 +73,12 @@ public class MyBinaryTree {
 		int rightHeight = heightOfTree(root.right);
 		return Math.max(leftHeight,rightHeight)+1;
 	}
+	boolean isBalanced(MyBinaryTreeNode<Integer> root) {
+		if(root == null ) return true;
+		int lh= heightOfTree(root.left);
+		int rh = heightOfTree(root.right);
+		return (lh == rh) ?true:false;
+	}
 	
 	public static void main(String[] args) {
 		main = new MyBinaryTree();
@@ -82,6 +88,7 @@ public class MyBinaryTree {
 		System.out.println(main.nodeCountOfMyBinaryTreeNode(takeInput));
 		System.out.println(main.leavesCount(takeInput));
 		System.out.println(main.heightOfTree(takeInput)+" height of tree");
+		System.out.println(main.isBalanced(takeInput)+" --> is tree balanced?");
 		MyBinaryTreeNode<Integer> r =main.removeLeaves(takeInput);
 		new MyBinaryTreeNode<Integer>(null).print(r);
 		System.out.println(main.heightOfTree(takeInput)+" height of tree");
